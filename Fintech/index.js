@@ -63,5 +63,8 @@ return res.status(200).json({
 });
 
 app.listen(port,()=>{
-    console.log('API rodando em https://localhost${port}');
+    console.log(`API rodando em http://localhost${port}`);
 });
+
+//abrir terminal e escrever node index.js
+//Para acessar digite http://localhost:3000
