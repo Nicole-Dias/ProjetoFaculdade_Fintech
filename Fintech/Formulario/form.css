@@ -1,17 +1,20 @@
+/*Fonte*/
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
 /*Estilizar tudo*/
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    font-family: "Delius Swash Caps";
+    background-color: #bdcfff;
     padding: 20px;
 }
 
 main {
     max-width: 500px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgb(45, 1, 87);
 }
 
 .form-group {
@@ -25,10 +28,11 @@ label {
 }
 
 input {
+    background-color: #edf1fa;
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 2px solid #4b016d1a;
+    border-radius: 10px;
     box-sizing: border-box;
 }
 
@@ -44,8 +48,8 @@ input {
 }
 
 button {
-    background-color: #007bff;
-    color: white;
+    background-color: #253a5c;
+    color: #edf1fc;
     padding: 15px 20px;
     border: none;
     border-radius: 4px;
@@ -56,5 +60,5 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #5f8cd5;
 }
